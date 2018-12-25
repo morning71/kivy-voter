@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0661f2f-22e4-4793-a409-2f4bdf6c91e8" name="Default Changelist" comment="" />
+    <list default="true" id="f0661f2f-22e4-4793-a409-2f4bdf6c91e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icon_cpu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.kv" beforeDir="false" afterPath="$PROJECT_DIR$/main.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +14,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/voter_test$example.coverage" NAME="example Coverage Results" MODIFIED="1545385405210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/voter_test$main.coverage" NAME="main Coverage Results" MODIFIED="1545643447022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/voter_test$example.coverage" NAME="example Coverage Results" MODIFIED="1545698773505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/voter_test$main.coverage" NAME="main Coverage Results" MODIFIED="1545731168309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-712440505">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="kv" value="11" />
-          <entry key="png" value="3" />
-          <entry key="py" value="7" />
+          <entry key="png" value="4" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
+          <entry key="Image" value="4" />
           <entry key="Kivy" value="2" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kv" value="4049" />
-          <entry key="py" value="1936" />
+          <entry key="kv" value="6294" />
+          <entry key="py" value="1947" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kivy" value="2320" />
+          <entry key="Kivy" value="4565" />
           <entry key="PLAIN_TEXT" value="1729" />
-          <entry key="Python" value="1936" />
+          <entry key="Python" value="1947" />
         </counts>
       </usages-collector>
     </session>
@@ -76,12 +95,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="-19">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
-                <marker date="1545643446981" expanded="true" signature="1115:1126" ph="..." />
-                <marker date="1545643446981" expanded="true" signature="1124:1126" ph="..." />
-                <marker date="1545643446981" expanded="true" signature="1145:1253" ph="..." />
+                <marker date="1545703034641" expanded="true" signature="1108:1119" ph="..." />
+                <marker date="1545703034641" expanded="true" signature="1117:1119" ph="..." />
+                <marker date="1545703034641" expanded="true" signature="1138:1246" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,8 +109,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="456">
+              <caret line="217" column="45" lean-forward="true" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/btn_click_blue.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.6/dist-packages/kivymd/bottomsheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="720">
               <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
             </state>
           </provider>
@@ -119,13 +155,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/voter-demo/customwidget.kv" />
         <option value="$PROJECT_DIR$/example.py" />
-        <option value="$PROJECT_DIR$/main.kv" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/main.kv" />
       </list>
     </option>
   </component>
@@ -141,6 +180,7 @@
     <option name="width" value="927" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -172,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/UUOSWallet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -263,31 +303,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="993" y="25" width="927" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26560727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26901248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23193096" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.55975795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23135135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5589189" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32901832" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32864866" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3291714" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +350,9 @@
         <state relative-caret-position="-1305" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/icon_voter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$USER_HOME$/voter-demo/customwidget.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -309,9 +360,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/icon_RAM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/kivymd/bottomsheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7875">
+        <state>
           <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -319,38 +380,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/kivymd/bottomsheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/icon_lock.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/icon_voter.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/icon_RAM.png">
+    <entry file="file://$PROJECT_DIR$/image/btn_click_blue.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="-19">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1545643446981" expanded="true" signature="1115:1126" ph="..." />
-            <marker date="1545643446981" expanded="true" signature="1124:1126" ph="..." />
-            <marker date="1545643446981" expanded="true" signature="1145:1253" ph="..." />
+            <marker date="1545703034641" expanded="true" signature="1108:1119" ph="..." />
+            <marker date="1545703034641" expanded="true" signature="1117:1119" ph="..." />
+            <marker date="1545703034641" expanded="true" signature="1138:1246" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="456">
+          <caret line="217" column="45" lean-forward="true" selection-start-line="217" selection-start-column="45" selection-end-line="217" selection-end-column="46" />
         </state>
       </provider>
     </entry>

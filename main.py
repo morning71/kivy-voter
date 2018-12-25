@@ -4,7 +4,7 @@ kivy.require('1.11.0')
 from kivy.config import Config
 Config.set('kivy','default_font',['msgothic','font/SourceHanSansCN-Bold.otf'])
 #Config.setdefault('kivy','default_font',None)
-#Config.write()
+Config.write()
 
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
@@ -21,8 +21,8 @@ from kivy.uix.label import Label
 from kivy.lang import Builder
 
 
-'''kivy.resources.resource_add_path("/font")
-fong_heiti = kivy.resources.resource_find('SourceHanSansCN-Bold.otf')'''
+kivy.resources.resource_add_path("/font")
+fong_heiti = kivy.resources.resource_find('SourceHanSansCN-Bold.otf')
 
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout

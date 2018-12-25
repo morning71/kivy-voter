@@ -1,3 +1,8 @@
+<ImageButton@ButtonBehavior+Image>:
+    source:'image/icon_received.png'
+
+
+
 <Top>:
     orientation:'vertical'
     canvas:
@@ -114,31 +119,132 @@
             height:'39px'
             width:'48px'
             Image:
-                source:'image/icon_cpu.png'
+                source:'image/logo.png'
                 y:self.parent.y+8
                 x:self.parent.x
                 size:48,39
     FloatLayout:
         orientation:'horizontal'
+        size_hint_x:.4
+        canvas:
+            Rectangle:
+                source:'image/main_bg.jpg'
+                size:self.width,self.height
+                pos:0,0
         FloatLayout:
-            orientation:'vertical'
-            size_hint_x:.4
+            size_hint_x:0.92
+            size_hint_y:0.074074074
             canvas:
                 Color:
-                    rgba:0,0,0,1
+                    rgba:1,1,1,1
                 Rectangle:
                     size:self.width,self.height
-                    pos:0,0
-            FloatLayout:
-                orientation:'horizontal'
-                canvas:
-                    Color:
-                        rgba:1,1,1,1
-                    Rectangle:
-                        size:708,73
-                        pos:30,850
-                Label:
-                    text:'区块高度: 28919381'
-                    size:159,18
-                    pos:60,830
-                    color:0,0,1,1
+                    pos:30,850
+            Label:
+                text:' block height: 28919381'
+                size:159,18
+                font_size:'18px'
+                x:self.parent.x-186
+                y:self.parent.y+860
+                color:.2,.2,.2,1
+            Label:
+                text:'eos.greymass.com'
+                size:104,10
+                font_size:'12px'
+                x:self.parent.x-232
+                y:self.parent.y+840
+                color:.4,.4,.4,1
+            Button:
+                background_normal:'image/icon_view.png'
+                x:self.parent.x+650
+                y:self.parent.y+865
+                size_hint_x:None
+                size_hint_y:None
+                height:'42px'
+                width:'42px'
+        Button:
+            background_normal:'image/fengse.png'
+            text:'Lock Wallet'
+            pos_hint:{'x':0.0390625,'top':.875}
+            size_hint_x:0.92
+            size_hint_y:0.05
+            Image:
+                source:'image/lock.png'
+                x:self.width+160
+                y:self.height+660
+        FloatLayout:
+            size_hint_x:0.92
+            size_hint_y:0.4
+            canvas:
+                Color:
+                    rgba:1,1,1,1
+                Rectangle:
+                    size:self.width,self.height
+                    pos:30,390
+            Label:
+                text:' Wallet operation'
+                color:0,0,0,1
+                font_size:'18px'
+                x:self.parent.x-self.width*0.315
+                y:self.parent.y+self.height*1.475
+            Button:
+                text:'Update Staked EOS'
+                color:0,0,0,1
+                background_normal:'image/Rectangle.png'
+                pos_hint:{'x':0.125,'top':1.925}
+                size_hint_x:0.85
+                size_hint_y:0.15
+                Image:
+                    source:'image/icon_cpu_white.png'
+                    x:self.width*13.5
+                    y:self.width*33.215
+                    size:20,20
+            Button:
+                text:'Send Tokens'
+                color:0,0,0,1
+                background_normal:'image/Rectangle.png'
+                pos_hint:{'x':0.125,'top':1.8}
+                size_hint_x:0.85
+                size_hint_y:0.15
+                Image:
+                    source:'image/icon_cpu.png'
+                    x:self.width*13.5
+                    y:self.width*33.215
+                    size:20,20
+            Button:
+                text:'Receive Tokens'
+                color:0,0,0,1
+                background_normal:'image/Rectangle.png'
+                pos_hint:{'x':0.125,'top':1.725}
+                size_hint_x:0.85
+                size_hint_y:0.15
+                Image:
+                    source:'image/icon_cpu.png'
+                    x:self.width*13.5
+                    y:self.width*33.215
+                    size:20,20
+            Button:
+                text:'Receive Tokens'
+                color:0,0,0,1
+                background_normal:'image/Rectangle.png'
+                pos_hint:{'x':0.125,'top':1.625}
+                size_hint_x:0.85
+                size_hint_y:0.15
+                Image:
+                    source:'image/icon_cpu.png'
+                    x:self.width*13.5
+                    y:self.width*33.215
+                    size:20,20
+            Button:
+                text:'Receive Tokens'
+                color:0,0,0,1
+                background_normal:'image/Rectangle.png'
+                pos_hint:{'x':0.125,'top':1.525}
+                size_hint_x:0.85
+                size_hint_y:0.15
+                Image:
+                    source:'image/icon_cpu.png'
+                    x:self.width*13.5
+                    y:self.width*33.215
+                    size:20,20
+

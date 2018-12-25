@@ -1,5 +1,5 @@
 import kivy
-kivy.require('1.11.0')
+kivy.require('1.10.1')
 
 from kivy.config import Config
 Config.set('kivy','default_font',['msgothic','font/SourceHanSansCN-Bold.otf'])

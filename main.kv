@@ -196,55 +196,76 @@
                 size_hint_y:0.15
                 Image:
                     source:'image/icon_cpu_white.png'
-                    x:self.width*13.5
-                    y:self.width*33.215
+                    x:self.width*14
+                    y:self.width*34.6
                     size:20,20
             Button:
                 text:'Send Tokens'
                 color:0,0,0,1
                 background_normal:'image/Rectangle.png'
-                pos_hint:{'x':0.125,'top':1.8}
+                pos_hint:{'x':0.125,'top':1.75}
                 size_hint_x:0.85
                 size_hint_y:0.15
                 Image:
-                    source:'image/icon_cpu.png'
-                    x:self.width*13.5
-                    y:self.width*33.215
+                    source:'image/send.png'
+                    x:self.width*15.5
+                    y:self.width*31
                     size:20,20
             Button:
                 text:'Receive Tokens'
                 color:0,0,0,1
                 background_normal:'image/Rectangle.png'
-                pos_hint:{'x':0.125,'top':1.725}
+                pos_hint:{'x':0.125,'top':1.575}
                 size_hint_x:0.85
                 size_hint_y:0.15
                 Image:
-                    source:'image/icon_cpu.png'
-                    x:self.width*13.5
-                    y:self.width*33.215
+                    source:'image/Receive.png'
+                    x:self.width*15
+                    y:self.width*27.8
                     size:20,20
             Button:
                 text:'Receive Tokens'
                 color:0,0,0,1
                 background_normal:'image/Rectangle.png'
-                pos_hint:{'x':0.125,'top':1.625}
+                pos_hint:{'x':0.125,'top':1.4}
                 size_hint_x:0.85
                 size_hint_y:0.15
                 Image:
-                    source:'image/icon_cpu.png'
-                    x:self.width*13.5
-                    y:self.width*33.215
+                    source:'image/money.png'
+                    x:self.width*15
+                    y:self.width*24.5
                     size:20,20
             Button:
                 text:'Receive Tokens'
                 color:0,0,0,1
                 background_normal:'image/Rectangle.png'
-                pos_hint:{'x':0.125,'top':1.525}
+                pos_hint:{'x':0.125,'top':1.225}
                 size_hint_x:0.85
                 size_hint_y:0.15
                 Image:
-                    source:'image/icon_cpu.png'
-                    x:self.width*13.5
-                    y:self.width*33.215
+                    source:'image/money.png'
+                    x:self.width*15
+                    y:self.width*21.2
                     size:20,20
-
+            Label:
+                text:'Advanced Actions'
+                color:0,0,0,1
+                font_size:'18px'
+                x:self.parent.x-self.width*0.315
+                y:self.parent.y+self.height*0.5
+    FloatLayout:
+        orientation:'horizontal'
+        canvas:
+            Rectangle:
+                source:'image/main_bg.jpg'
+                size:self.width,self.height
+                pos:0,0
+        FloatLayout:
+            size_hint_x:0.92
+            size_hint_y:0.074074074
+            canvas:
+                Color:
+                    rgba:0,1,1,1
+                Rectangle:
+                    size:self.width,self.height
+                    pos:30,850

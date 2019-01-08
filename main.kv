@@ -224,7 +224,7 @@
                     y:self.width*27.8
                     size:20,20
             Button:
-                text:'Receive Tokens'
+                text:'Send Tokens'
                 color:0,0,0,1
                 background_normal:'image/Rectangle.png'
                 pos_hint:{'x':0.125,'top':1.4}
@@ -253,19 +253,16 @@
                 font_size:'18px'
                 x:self.parent.x-self.width*0.315
                 y:self.parent.y+self.height*0.5
-    FloatLayout:
-        orientation:'horizontal'
-        canvas:
-            Rectangle:
-                source:'image/main_bg.jpg'
-                size:self.width,self.height
-                pos:0,0
         FloatLayout:
-            size_hint_x:0.92
-            size_hint_y:0.074074074
+            orientation:'horizontal'
+            size_hint_x:0.6
+            size_hint_y:1.96
+            pos_hint:{'x':0.4,'y':1.9}
             canvas:
                 Color:
-                    rgba:0,1,1,1
+                    rgba:0,0,0,1
                 Rectangle:
+
                     size:self.width,self.height
-                    pos:30,850
+                    pos:0,0
+
